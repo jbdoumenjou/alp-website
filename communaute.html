@@ -1,0 +1,390 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>ALP</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <style>
+            body {
+                padding-top: 100px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css"> -->
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Astronomie Libre de Pyr&eacute;n&eacute;es</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-top" aria-controls="navbars-top" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+              <div class="collapse navbar-collapse" id="navbars-top">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown-community" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">La communaut&eacute; <span class="sr-only">(current)</span></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown-community">
+                          <a class="dropdown-item" href="#members">Membres</a>
+                          <a class="dropdown-item" href="#meetings-location">Sites RDV</a>
+                          <a class="dropdown-item" href="#challenges">D&eacute;fis</a>
+                          <a class="dropdown-item" href="#joinus">Nous rejoindre</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="observation.html" id="dropdown-community" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Observation</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown-community">
+                            <a class="dropdown-item" href="observation.html#Ephémérides">Ephémérides</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown-community" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Astrophoto</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown-community">
+                          <a class="dropdown-item" href="#">Histoire de la photo</a>
+                          <a class="dropdown-item" href="#">La photo num&eacute;rique</a>
+                          <a class="dropdown-item" href="#">Calculs utiles</a>
+                          <a class="dropdown-item" href="#">M&eacute;thodes d'imagerie</a>
+                          <a class="dropdown-item" href="#">En pratique</a>
+                          <a class="dropdown-item" href="#">Le traitement</a>
+                          <a class="dropdown-item" href="#">Autoguidage</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Défis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tutoriels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Galleries</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://alpforum.xooit.eu/index.php" target="_blank">Forum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Liens</a>
+                    </li>
+
+                  </ul>
+                </div>
+        </nav>
+
+
+
+    <div class="container">
+        <main role="main">
+            <div class="jumbotron" id="challenges">
+                    <h1>Les défis</h1>
+                    <p class="lead">Tous les mois, un défi est proposé aux membres de la communauté. Ce défi constitue en sorte un challenge à observer ou à photographier chaque mois avec l'instrument et les techniques de leur choix.</p>
+                    <p class="lead">Les défis sont sélectionnés en fonction de l'intérêt, de la visibilité de l'objet au cours de l'année et également leur accessibilité à des instruments amateurs de diamètre modeste.</p>
+                    <p class="lead">Ils sont classés avec différents niveux de difficultés de 1 à 5 :</p>
+                    <table class="table table-striped">
+                        <tbody>
+                            <tr>
+                            <td>1 et 2</td>
+                            <td>Pour les objets facilement visibles déjà à l'oculaire (objets de Messier)</td>
+                            </tr>
+                            <tr>
+                            <td>3</td>
+                            <td>Pour les objets à l'horizon ou faiblement étendues</td>
+                            </tr>
+                            <tr>
+                            <td>4</td>
+                            <td>Pour les objets visible à l'oculaire mais avec un filtre</td>
+                            </tr>
+                            <tr>
+                            <td>5</td>
+                            <td>Pour les objets uniquement visibles en photo</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <section>
+                        <header>
+                            <h2>Défis du mois de Novembre proposé par Gérard</h2>
+                        </header>
+                        <div>
+                            <h3>La galaxie du triangle</h3>
+                            <img src="img/galaxietriangle.png" class="rounded" alt="galaxie triangle">
+                            <br/>
+                            <p>La galaxie du Triangle, également appelée M33, est une galaxie spirale de type SA(s)cd appartenant au Groupe local et située dans la constellation du Triangle. Sans doute satellite de la galaxie d'Andromède. Les mesures actuelles donnent une distance allant d’environ 2,38 millions d'a.l. à environ 3,07 millions d'a.l..</p>
+                            <p>C'est la troisième galaxie la plus massive du Groupe local après la galaxie d'Andromède et la Voie lactée, et devant le Grand Nuage de Magellan ; avec une masse évaluée à 60 milliards de masses solaires, elle ne représente que 5 % de la masse de la galaxie d'Andromède, la matière noire constituant près de 85 % de cette masse</p>
+                            <table class="table table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <td>Constellation :</td>
+                                            <td>Triangle</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ascension droite :</td>
+                                            <td>01h 33m 50,904s</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Déclinaison :</td>
+                                            <td>+30° 39′35,79″</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Distance :</td>
+                                            <td>~ 3 millions d'a.l.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Magnitude apparente :</td>
+                                            <td>6.27</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Dimensions apparentes :</td>
+                                            <td>70,80 ×41,7 minutes d’arc</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Niveau de difficulté :</td>
+                                            <td>1</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                        </div>
+                        <div>
+                            <p>A vos observations et à vos photos !</p>
+                            <img src="img/locM33.png" class="rounded" alt="carte m33">
+                            <img src="img/locM33_2.png" class="rounded" alt="carte m33">
+                        </div>
+                        <br/>
+                        <div>
+                            <h3>Ci-dessous les anciens défis de l'année courante :</h3>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Mois</th>
+                                        <th scope="col">Défis</th>
+                                        <th scope="col">Résultat</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Janvier</td>
+                                        <td><a href="doc/2017/defi_janvier.pdf"  target="_blank">la Rosette</a></td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Février</td>
+                                        <td><a href="doc/2017/defi_fevrier.pdf"  target="_blank">l'amas M46</a></td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mars</td>
+                                        <td><a href="doc/2017/defi_mars.pdf"  target="_blank">le Triplet du Lion</a></td>
+                                        <td>-</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+            </div>
+
+            <!-- Meetings location -->
+            <div class="jumbotron" id="meetings-location">
+                <section>
+                    <h1>Sites de Rendez-vous</h1>
+                    <p class="lead">Les sites actuels de rendez-vous pour des observations ou de la photo entre membres sont répertoriés dans cette rubrique.</p>
+                </section>
+                <br/>
+                <section>
+                    <img src="img/campagne.jpg" class="rounded" alt="campagne">
+                    <h2>Côté campagnard on a :</h2>
+                    <br/>
+                    <ol>
+                        <li>
+                            <h3>Le site de Rieux-Volvestre appelé le site de "La ruine".</h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m11!1m3!1d560.6529541562749!2d1.254673120245351!3d43.26683605208694!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sfr!2sfr!4v1511987858440" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </li>
+                        <li>
+                            <h3>Le site de Lapeyrere appelé le site de "L'abris bus".</h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2800.0424116548443!2d1.3157439!3d43.2016113!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sfr!2sfr!4v1511988200616" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </li>
+                        <li>
+                            <h3>Le site d'Esperce appelé le site du "Chateau d'eau".</h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m11!1m3!1d463.98413171413563!2d1.3838975887188703!3d43.30630748357971!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sfr!2sfr!4v1511988363710" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </li>
+                    </ol>
+                </section>
+                <section>
+                    <img src="img/montagne.jpg" class="rounded" alt="montagne">
+                    <h2>Côté montagnard on a :</h2>
+                    <br/>
+                    <ol>
+                        <li>
+                            <h3>Le site de Guzet Neige appelé le site de "Beauregard".</h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m11!1m3!1d1668.0775182989214!2d1.3103059467198657!3d42.768262397094915!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sfr!2sfr!4v1511989074265" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </li>
+                        <li>
+                            <h3>Le site de Beille appelé le site du "Plateau".</h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d706.8636986842195!2d1.690488518287993!3d42.72470000937638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12af703756d11363%3A0xee1b05fe067d60fb!2sBeille!5e1!3m2!1sfr!2sfr!4v1511989148899" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </li>
+                    </ol>
+                </section>
+            </div>
+
+            <!-- Members -->
+            <div class="jumbotron" id="members">
+              <h1>Membres</h1>
+              <table class="table table-striped">
+                <tbody>
+                    <td colspan="2" align="center" valign="middle" ><h3>Organisation 2017</h3></td>
+                  <tr>
+                    <td>Référent</td>
+                    <td>Julien LECUYER</td>
+                  </tr>
+                  <tr>
+                    <td>Adjoint</td>
+                    <td>Gérard NONNEZ</td>
+                  </tr>
+                  <tr>
+                    <td>Membres </td>
+                    <td>Jean-Marie MESSINA, Hugues ALEXANDRE, Jean-Baptiste DOUMENJOU, Christophe BOEUF, Etienne LECOQ, Alexandre NONNEZ, Bernard TOURNOIS, Bernard GERVAIS, Quentin LEMARECHAL, Céline AUTECHAUD, Jean MOUCAUD, Julien et Aurore DJOUL.</td>
+                  </tr>
+
+                </tbody>
+              </table>
+              <div class="container">
+                <h1>Présentation des membres</h1>
+                <!-- Example row of columns -->
+                <br/>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="img/julien-lecuyer.jpg" class="rounded" alt="Julien LECUYER">
+                    </div>
+
+                    <div class="col-md-8">
+                        <h2>Julien LECUYER</h2>
+                        <p class="text-justify">J'ai commencé l'astronomie vers l'âge de 10 ans en m'intéressant à La Lune et à la planète Jupiter que j'observais à travers la lucarne de la maison de mes parents à l'aide d'une petite lunette. Puis à 13 ans, l'observation de l'éclipse totale de Soleil le 11 août 1999 fût un vrai déclic pour moi car j'avais décidé de me rapprocher du club d'astronomie de ma ville (Soissons) afin de progresser et de partager ma passion avec ses membres. En 2006, après quelques années de travail et épauler par le président fondateur de mon clun et la SAF, j'ai réalisé le miroir principal de mon télescope newton de 200 mm ainsi que le tube.</p>
+                        <p class="text-justify">Je suis principalement passionnée par les planètes, les éclipses et transits de tout type ainsi que par les comètes. J'ai fait mes premiers pas dans l'astrophotographie en 2015 avec une lunette de 85 mm et je compte approfondir ce domaine ainsi que celui de l'astrophysique.</p>
+                        <p class="text-justify"> 2017, j'ai fondé la Communauté d'Astrophotographie Libre des Pyrénées qui en sorte un groupe de travail sur la photo celeste d'objet de tout type et a pour but de partager et de perfectionner les compétances de chacun des membres dans ce domaine.</p>
+                    </div>
+                </div>
+                <br/>
+                <br/>
+
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2>Gérard NONNEZ</h2>
+                        <p class="text-justify">Depuis aussi loin que je me rappelle, j’ai toujours été attiré par les secrets de notre univers et les magnifiques photos que je voyais dans les différents livres que mes parents m’avaient achetés</p>
+                        <p class="text-justify">J’avais pensé pour ma retraite (qui n’est pas encore pour aujourd’hui) m’équiper et me lancer dans l’astronomie, jusqu’au jour au mon fils Frédéric, alors en 4ème, nous disait qu’il souhaitait faire des études pour embrasser une carrière d’astrophysicien (je lui souhaite de réussir dans cette difficile entreprise). Ce fut le déclic pour que, en décembre 2015, nous allions pousser la porte d’un magasin d’astronomie bien connu dans la région toulousaine où nous en sommes ressorti avec un T150 skywatcher, une monture EQ3, un système GOTO (je respecte à la lettre un vieil adage d’un de mes ancien professeur d’électrotech, qui nous disait d’être fainéant), filtre solaire et une petite caméra planétaire.</p>
+                        <p class="text-justify">Première observation solaire et planétaire dans la foulée en visuel avec beaucoup de « wouah », pourtant les premières difficultés arrivent : mise en station, utilisation de la caméra, avec mes garçons on se décide à rechercher un club. Et c’est au club du balcon des étoiles que nous avons fait un stage d’initiation à l’astronomie qui nous a été bien utile. Après cela, premières images captées avec la petite caméra, on s’essaye même au ciel profond avec les limites de notre configuration. Afin de passer du coté des astrophotographes, nous avons quelques peu améliorer notre configuration, achat d’une caméra refroidie, d’une lunette de guidage, trouver une monture NEQ6 d’occasion, essai avec l’appareil photo reflex familiale, les premières photos sont encourageantes</p>
+                        <p class="text-justify">Depuis avec d’autres astronomes amateurs nous nous lançons des défis d’objets du ciel profond à imager, pas pour voir qui a fait la plus belle photo, juste pour notre plaisir personnel et faire partager nos images avec nos familles, nos amis, le public qui vient dans notre club. Depuis, mon deuxième fils Alexandre s’est aussi converti à l’astronomie, et devrait bientôt se lancer dans l’astrophotographie avec son propre matériel (C8 sur monture Vixen), qui entre 2 déplacements pour son travail revient dans le sud ouest pour utiliser son matériel avec la petite bande de copains passionnés d’astronomie que nous avons rencontré.</p>
+                        <p class="text-justify">Maintenant, j’ai toujours les yeux rivés vers le ciel, mais aussi sur les applis météos, et dès que le ciel le permet, soit depuis la maison, soit avec des collègues sur nos sites d'observations, je passe mes soirées à faire des photos de ces magnifiques galaxies, nébuleuses, amas, comètes, que je regardais dans les livres, ainsi la boucle est bouclée</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/gerard-nonnez.jpg" class="rounded" alt="Gérard NONNEZ">
+                    </div>
+                </div>
+
+                <br/>
+                <br/>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="img/etienne-lecoq.jpg" class="rounded" alt="Etienne LECOQ">
+                    </div>
+                    <div class="col-md-8">
+                        <h2>Etienne LECOQ</h2>
+                        <p class="text-justify">J'ai fait mes premiers pas en Astronomie vers l'âge de 20 ans avec un Newton de 115/900 sur lequel j'ai rapidement ajouté un raccord photographique. Depuis, cette passion pour la photo ne m'a jamais quitté et au fil des années j'ai évolué vers des instruments de diamètres plus importants (jusqu'à utiliser un télescope d'un 1 m d'ouverture à Puimichel) Nombre de mes images ont été publiées dans les revues d'Astronomie et j'ai également participé à l'illustration de deux ouvrages de la série Multiguides Astronomie aux Editions Bordas.</p>
+                        <p class="text-justify">L'observation solaire est devenue ma spécialité et je ne perds jamais l'occasion de photographier taches et protubérances avec une lunette solaire dédiée Lunt. L'âge de la retraite ayant sonné, je dispose de beaucoup plus de temps pour me consacrer à la photo des galaxies , nébuleuses et amas. L'évènement de l'ère informatique a été une véritable révolution pour moi qui était habitué aux chambres noires des labos photo !!</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2>Quentin LEMARECHAL</h2>
+                        <p class="text-justify">À mon entrée en classe de seconde, il y a trois ans, j’ai goûté pour la première fois aux joies de comprendre et maîtriser quelques notions scientifiques complexes. Ces premiers pas m’ont décidé à dérouler plus encore l’infini parchemin des sciences, ce que je n’ai eu de cesse de faire depuis lors.
+                            L’astronomie a ainsi pris naturellement une place de choix dans le carnet de mes passions qui compte, par ailleurs, la photographie mais aussi la philosophie et la poésie. Je retrouve ces deux dernières lorsque j’observe le ciel apaisant des nuits avec mon récent télescope de formule optique Newton aux 200 mm de diamètre et 1000 mm de focale sur une monture équatoriale EQ6-R Pro Go-To.
+                            Qu’y a-t-il de plus époustouflant qu’enrouler son regard autour des disques planétaires ou encore enlacer des yeux les milliards d’étoiles qu’arborent les galaxies ?
+                            Qu’y a-t-il de plus intriguant que transgresser les limites temporelles en admirant les étoiles dans leur passé et imaginer leur instant présent auquel nous sommes aveugles, en pensant à leur évolution qui pourrait conduire à des formes de vie ?
+                            Peut-être rien, peut-être une photographie.
+                            Je l’ai compris en regardant les clichés des autres membres : photographier les objets célestes est le moyen de faire apparaître les détails et couleurs que l’on ne perçoit pas par l’observation visuelle. On peut remarquer, de fait, les festons livides des nébuleuses rougir et se déployer distinctement sur une photographie.
+                            Les passionnés du club m’ont beaucoup conseillé sur mon équipement. C’est donc dans cette communauté que j’ai découvert l’astrophotographie dont je me suis épris.</p>
+                        <p class="text-justify">La poésie précède mes oculaires, la philosophie les poursuit.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p><img src="img/quentin-lemarechal.png" class="rounded" alt="Quentin LEMARECHAL"></p>
+                        <p><img src="img/quentin-lemarechal-2.png" class="rounded" alt="Quentin LEMARECHAL"></p>
+                    </div>
+                </div>
+
+                <br/>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Bernard TOURNOIS</h2>
+                        <p class="text-justify">Depuis toujours j’ai été attiré par le ciel étoilé, son immensité. Contemplatif devant les magnifiques photos des livres d’astronomie. Attiré par le monde de l’image depuis longtemps à travers le court métrage, la photo et la vidéo je viens de m’équiper d’un Newton 200 et d’une monture HEQ5. Je suis à la retraite depuis quelques années et un débutant qui espère progresser en astrophotographie auprès des astronomes chevronnés de la communauté et réussir de belles images sur le ciel profond et les planètes.</p>
+                    </div>
+                </div>
+                <br/>
+
+                <div class="row">
+                        <div class="col-md-4">
+                            <br/>
+                            <p><img src="img/hugues-alexandre-1.jpg" class="rounded" alt="Hugues ALEXANDRE"></p>
+                            <p><img src="img/hugues-alexandre-2.jpg" class="rounded" alt="Hugues ALEXANDRE"></p>
+                        </div>
+                        <div class="col-md-8">
+                            <h2>Hugues ALEXANDRE</h2>
+                            <p class="text-justify">Comprendre l’infiniment petit pour comprendre l’infiniment grand, that is the question ?
+                                    A 21 ans j’ai durant 11 ans côtoyer l’infiniment petit (protons, neutrons, électrons) au sein d’un accélérateur de particules à ions lourds. L’astronomie m’a fait basculer dans l’infiniment grand qui est constitué des actions de l’infiniment petit et de ses effets. Plusieurs passions depuis l’adolescence m’animent toujours comme observer, partager, transmettre, immortaliser l’instant.
+                                    J’ai commencé l’astronomie avec une paire de jumelles 7x50 Nikon que j’ai toujours et fabriqué un adaptateur afin de les stabiliser sur mon pied photographique. J’ai commencé à observer depuis chez moi. Ces jumelles m’ont permis de découvrir les 4 principaux satellites de Jupiter et quand la météo est bonne de distinguer les bandes nuageuses. J’ai pu également distinguer Saturne, observer la comète Hale-Bopp en 1997 et découvrir des particularités du ciel comme la constellation du cintre non visible à l’œil nu, les joyaux de la voie lactée et de notre ciel.
+                                    Un jour, dans un dépôt vente, j’ai trouvé une lunette d’astronomie PERL-VIXEN 76/900mm qui avait peu servit, mais était dans un état moyen. Je l’ai nettoyé et cessé de l’améliorer au fil du temps, changement de la monture, du porte oculaire et des oculaires (il ne reste que le tube et le groupe optique).Ce fut mon 1er véritable instrument d’astronomie. Il m’a permis de voir les anneaux de Saturne et avec un filtre solaire (obligatoire), j’observe le soleil. C’est avec cet instrument que j’ai commencé à immortaliser mes premières photos d’astronomie (éclipse de lune de 2015 qui est exposé à la Cité de l’espace de Toulouse). Elle m’a permis de partager, et transmettre le plaisir d’observer lors de manifestation grand public (Ciel en fête, la nuit des étoiles…). Entendre le public dire, j’en reviens pas, c’est super, j’y crois pas…, elle parait si loin et si proche dans l’instrument…, ces propos ne font que renforcer l’envie de partager. Montrer le soleil et transmettre la notion que notre monde qui parait si grand estsi petit à l’échelle du soleil, de notre galaxie et poussière à l’échelle du cosmos. Ces notions étonnent petit et grand et renforce encore ce plaisir de transmettre.
+                                    Aujourd’hui j’ai décidé d’aller plus loin je me suis équipé d’un celestron C8 que j’ai complété d’accessoires (chercheur, caméra de suivi, Crayford, ordinateur…) pour y faire des photographies avec de long temps de pose et une exigence de qualité. Grace à cet instrument et l’aide des ALP (les Astronomes Libres des Pyrénées), je vais aller plus loin et associer 3 plaisirs astronomiques, le visuel, l’astrophotographie et le partage des connaissances, en plus de l’amitié qui existe dans ce jeune groupe née en septembre 2017.
+                                    Mon C8 en plus d’être peut encombrant va permettent grâce à l’astrophotographie de capter les couleurs des objets du ciel profond que l’œil ne capte pas. Mais tout commence par la maitrise du pilotage de l’instrument, la compréhension de la technologie et du fonctionnement des logiciels, surtout quand on change pour un instrument plus puissant.</p>
+                        </div>
+                    </div>
+
+                <hr>
+
+              </div>
+        </div>
+
+        <div class="jumbotron">
+            <div id="joinus" class="container">
+              <h2>Nous rejoindre</h2>
+              <p class="lead">La communaut&eacute; est articul&eacute;e d'une part autour de ce site internet qui pr&eacute;sente les travaux de ces membres et permettent au d&eacute;butant de se former à l'aide de tutos. Un forum de discussion est &eacute;galement cr&eacute;&eacute; pour partager ses exploits ou demander des informations. Enfin une liste de diffusion pour organiser des soir&eacute;es ou ateliers (traitement, construction...) entre membres.
+              <p class="lead">L'inscription à cette communaut&eacute; est gratuite, il suffit de satisfaire aux conditions suivantes :</p>
+                <ul>
+                  <li>être passionn&eacute;(e) par l'Astronomie et l'Astrophotographie, ça s'est la base ;-)</li>
+                  <li>faire partie de la r&eacute;gion Occitanie en particulier dans le Midi Toulousain, c'est mieux pour facilit&eacute; les rencontres entre les membres.</li>
+                  <li>avoir envie de partager et d'apprendre pour aller plus loin dans et l'observation et l'astrophotographie.</li>
+                  <li>Puis d'envoyer les renseignements suivants par mail : nom, pr&eacute;nom, localit&eacute; et mat&eacute;riels d'astronomie.</li>
+                </ul>
+                <p><a class="btn btn-lg btn-success" href="mailto:photosalp@astrosurf.com" role="button">S'inscrire &raquo;</a></p>
+            </div>
+        </div>
+
+      </main>
+    </div>
+
+      <hr>
+
+      <footer>
+        <p align="center">&copy; Astronomie Libre des Pyr&eacute;n&eacute;es - 2017 - <a href="mailto:photosalp@astrosurf.com">Contact</a></p>
+      </footer>
+    </div> <!-- /container -->
+        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script> -->
+        <!-- <script src="js/vendor/bootstrap.min.js"></script> -->
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
